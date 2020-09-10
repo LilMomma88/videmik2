@@ -1,0 +1,18 @@
+2020-08-13T11:05:25+00:00 CRITICAL Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\mb_convert_encoding() in /var/www/videmik/wp-content/plugins/laravel-dd/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:432
+Stack trace:
+#0 /var/www/videmik/wp-content/plugins/laravel-dd/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(339): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine()
+#1 /var/www/videmik/wp-content/plugins/laravel-dd/vendor/symfony/var-dumper/Cloner/Data.php(163): Symfony\Component\VarDumper\Dumper\HtmlDumper->enterHash()
+#2 /var/www/videmik/wp-content/plugins/laravel-dd/vendor/symfony/var-dumper/Cloner/Data.php(91): Symfony\Component\VarDumper\Cloner\Data->dumpItem()
+#3 /var/www/videmik/wp-content/plugins/laravel-dd/vendor/symfony/var-dumper/Dumper/AbstractDumper.php(126): Symfony\Component\VarDumper\Cloner\Data->dump()
+#4 /var/www/videmik/wp-content/plugins/laravel-dd/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(93): Symfony\Component\VarDumper\Dumper\AbstractDumper->dump()
+#5 /var/www/videmik/wp-c in /var/www/videmik/wp-content/plugins/laravel-dd/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 432
+
+2020-08-13T11:07:09+00:00 CRITICAL Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\mb_convert_encoding() in /var/www/videmik/wp-content/plugins/laravel-dd/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:432
+Stack trace:
+#0 /var/www/videmik/wp-content/plugins/laravel-dd/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(339): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine()
+#1 /var/www/videmik/wp-content/plugins/laravel-dd/vendor/symfony/var-dumper/Cloner/Data.php(163): Symfony\Component\VarDumper\Dumper\HtmlDumper->enterHash()
+#2 /var/www/videmik/wp-content/plugins/laravel-dd/vendor/symfony/var-dumper/Cloner/Data.php(91): Symfony\Component\VarDumper\Cloner\Data->dumpItem()
+#3 /var/www/videmik/wp-content/plugins/laravel-dd/vendor/symfony/var-dumper/Dumper/AbstractDumper.php(126): Symfony\Component\VarDumper\Cloner\Data->dump()
+#4 /var/www/videmik/wp-content/plugins/laravel-dd/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(93): Symfony\Component\VarDumper\Dumper\AbstractDumper->dump()
+#5 /var/www/videmik/wp-c in /var/www/videmik/wp-content/plugins/laravel-dd/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 432
+

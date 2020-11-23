@@ -45,13 +45,13 @@ function custom_loop_product_thumbnail() {
     $size = 'woocommerce_thumbnail';
 
     $image_size = apply_filters( 'single_product_archive_thumbnail_size', $size );
-
+	
     $title = $product->get_meta( 'product_video_preview' );
     $target_dir = get_site_url()."/wp-content/uploads/".$title;
     if ($title) {
-        echo do_shortcode('[video width="250" height="400" alt="" mp4="'.$target_dir.'"][/video]');
+        echo do_shortcode('[video width="1920" height="1080" alt="" mp4="'.$target_dir.'"][/video]');
     }else{
-        echo woocommerce_get_product_thumbnail();
+        echo woocommerce_get_product_thumbnail($image_size);
     }
 }
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );

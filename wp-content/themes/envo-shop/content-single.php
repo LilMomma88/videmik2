@@ -1,5 +1,5 @@
 <!-- start content container -->
-<div class="row">      
+<div class="row">  
     <article class="col-md-<?php envo_shop_main_content_width_columns(); ?>">
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>                         
                 <div <?php post_class(); ?>>
